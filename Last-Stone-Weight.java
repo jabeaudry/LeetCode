@@ -1,3 +1,7 @@
+//1046
+// You are given an array of integers stones where stones[i] is the weight of the ith stone.
+//Return the smallest possible weight of the left stone. If there are no stones left, return 0.
+
 class Solution {
     public int lastStoneWeight(int[] stones) {
         int counter = stones.length;
